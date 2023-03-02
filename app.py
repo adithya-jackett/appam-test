@@ -5,10 +5,12 @@
 import cv2
 import pytesseract
 from pytesseract import Output
+import streamlit as st
 
 
 test_tesseract_image = cv2.imread('tesseractr_test_image.jpg')
 test_tesseract_data = pytesseract.image_to_string(test_tesseract_image, lang='eng', config='--psm 6')
+print(test_tesseract_data)
 st.info(f"Tesseract Loaded and output from test is ::  {str(test_tesseract_data)}", icon="ℹ️")
 
 #st.set_page_config(page_title="Question Digitisation",page_icon="📖", layout = "wide")
