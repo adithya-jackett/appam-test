@@ -2,6 +2,7 @@
 
 #from helpers import *
 #from app_helpers import *
+import cv2
 import pytesseract
 from pytesseract import Output
 
