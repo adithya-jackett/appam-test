@@ -13,4 +13,5 @@ psutil
 openpyxl
 gspread
 oauth2client
+opencv-python
 pytesseract==0.3.10
