@@ -1,0 +1,15 @@
+requests
+pymongo[srv]
+certifi
+streamlit
+pdf2image
+pillow
+opencv-python-headless
+plotly
+beautifulsoup4
+stqdm
+imagesize
+psutil
+openpyxl
+gspread
+oauth2client
